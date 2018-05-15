@@ -1,0 +1,15 @@
+.block-wrapper {
+  position: relative;
+}
+
+.toggle-layout-wrapper {
+  position: sticky;
+  top: 0;
+  height: 0;
+}
+
+.section:not([data-state="active"]),
+.header:not([data-state="active"]),
+.footer:not([data-state="active"]) {
+  display: none;
+}

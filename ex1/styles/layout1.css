@@ -1,0 +1,89 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+.section {
+  min-width: 320px;
+  padding: 50px 0;
+  word-wrap: break-word;
+}
+
+.container {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.section__header {
+  margin-bottom: 45px;
+}
+
+.pricing-table {
+  display: flex;
+}
+
+.pricing-table__item {
+  flex: 1;
+}
+
+.btns-group {
+  margin-top: 40px;
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding: 60px 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .section {
+    padding: 75px 0;
+  }
+}
+
+
+.why-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.why-cards__item {
+  flex: 1;
+}
+
+.why-cards-2 .why-cards__item {
+  display: flex;
+  flex-basis: 50%;
+  flex-shrink: 0;
+}
+
+.text-columns {
+  display: flex;
+  margin-right: -30px;
+}
+
+.text-columns__item {
+  flex: 1;
+  margin-right: 30px;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services__item {
+  flex: 1;
+}
+
+.services-2 .services__item {
+  flex-basis: 50%;
+  flex-shink: 0;
+}
